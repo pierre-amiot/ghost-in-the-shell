@@ -1,0 +1,20 @@
+les commandes en utilisant les caractères "|", "||", "&", et "&&" pour réaliser les actions demandées :
+
+
+ code
+sudo apt-get install tree | tree > tree.save & ls -1 | wc -l && sudo apt-get update && sudo apt-get upgrade
+Explications :
+
+sudo apt-get install tree : Installe la commande "tree".
+tree > tree.save : Lance la commande "tree" en arrière-plan pour afficher l'arborescence du répertoire "/" et enregistre le résultat dans le fichier "tree.save".
+
+ls -1 | wc -l : Liste les éléments présents dans le dossier courant en utilisant la commande "ls" et compte le nombre d'éléments trouvés en utilisant la commande "wc -l".
+
+sudo apt-get update : Met à jour les paquets.
+sudo apt-get upgrade : Met à niveau les paquets.
+Le symbole "|" est utilisé pour rediriger la sortie de la commande précédente vers l'entrée de la commande suivante. 
+
+Le symbole "||" est utilisé pour exécuter la commande suivante seulement si la commande précédente a échoué. Le symbole "&" est utilisé pour lancer une commande en arrière-plan.
+ Le symbole "&&" est utilisé pour exécuter la commande suivante seulement si la commande précédente a réussi.
+
+Le résultat de cette commande sera affiché dans le terminal en fonction du succès ou de l'échec de chaque étape.

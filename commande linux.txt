@@ -1,0 +1,67 @@
+alias : Définit un alias pour une commande.
+apt : Gestionnaire de paquets APT (Advanced Package Tool) pour les distributions basées sur Debian.
+cat : Affiche le contenu d'un fichier.
+cd : Change le répertoire courant.
+chmod : Modifie les permissions d'accès aux fichiers et répertoires.
+chown : Change le propriétaire d'un fichier ou d'un répertoire.
+cp : Copie des fichiers et répertoires.
+curl : Effectue des requêtes HTTP, HTTPS ou FTP en ligne de commande.
+df : Affiche l'utilisation de l'espace disque.
+du : Affiche l'utilisation de l'espace disque par fichier ou répertoire.
+echo : Affiche du texte à l'écran ou redirige du texte vers un fichier.
+find : Recherche des fichiers et répertoires.
+grep : Recherche des motifs dans des fichiers.
+gzip : Compresse ou décompresse des fichiers.
+kill : Envoie un signal à un processus en cours d'exécution.
+ls : Liste les fichiers et répertoires.
+mkdir : Crée un répertoire.
+mv : Déplace ou renomme des fichiers et répertoires.
+nano : Éditeur de texte en ligne de commande.
+ping : Envoie des paquets ICMP pour tester la connectivité réseau.
+ps : Affiche les processus en cours d'exécution.
+rm : Supprime des fichiers et répertoires.
+rmdir : Supprime un répertoire vide.
+sed : Éditeur de flux de texte.
+ssh : Ouvre une connexion sécurisée SSH vers un hôte distant.
+tar : Crée, extrait ou manipule des archives tar.
+top : Affiche les processus en cours d'exécution et leurs statistiques en temps réel.
+unzip : Décompresse des archives au format ZIP.
+vi : Éditeur de texte en ligne de commande.
+wget : Télécharge des fichiers à partir du Web.
+yum : Gestionnaire de paquets pour les distributions basées sur Red Hat (CentOS, Fedora).
+
+
+
+
+
+
+awk : Langage de traitement de texte utilisé pour extraire et manipuler des données.
+dd : Copie et convertit des fichiers et des blocs de données.
+history : Affiche l'historique des commandes exécutées.
+ifconfig : Affiche et configure les interfaces réseau.
+iptables : Outil de configuration du pare-feu Linux.
+locate : Recherche rapidement des fichiers dans la base de données d'indexation.
+man : Affiche le manuel (documentation) d'une commande.
+mount : Montre un système de fichiers dans une arborescence existante.
+netstat : Affiche les connexions réseau, les tables de routage et les statistiques.
+passwd : Change le mot de passe d'un utilisateur.
+reboot : Redémarre le système.
+scp : Copie des fichiers entre des hôtes à l'aide du protocole SSH.
+service : Contrôle les services système.
+su : Passe à un autre utilisateur ou devient superutilisateur.
+tail : Affiche les dernières lignes d'un fichier.
+touch : Crée un fichier vide ou met à jour l'horodatage d'un fichier existant.
+uname : Affiche des informations sur le système d'exploitation.
+uniq : Filte les lignes consécutives en les supprimant ou en les répétant.
+uptime : Affiche le temps écoulé depuis le démarrage du système.
+useradd : Crée un nouvel utilisateur.
+userdel : Supprime un utilisateur.
+w : Affiche les utilisateurs connectés et leurs activités.
+wc : Compte le nombre de lignes, de mots et de caractères dans un fichier.
+whoami : Affiche le nom de l'utilisateur actuel.
+zip : Crée, modifie ou extrait des archives au format ZIP.
+
+
+
+
+

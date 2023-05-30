@@ -1,0 +1,56 @@
+Créer un ﬁchier “une_commande.txt” avec le texte suivant “Je suis votre ﬁchier
+texte”
+- Compter le nombre de lignes présentes dans votre ﬁchier de source apt et les
+enregistrer dans un ﬁchier nommé “nb_lignes.txt”
+- Aﬃcher le contenu du ﬁchier source apt et l’enregistrer dans un autre ﬁchier
+appelé “save_sources”
+- Faites une recherche des ﬁchiers commençants par “.” tout en cherchant le mot
+alias qui sera utilisé depuis un ﬁchier
+
+
+Voici les commandes pour réaliser les actions demandées :
+
+Créer un fichier "une_commande.txt" avec le texte "Je suis votre fichier texte" :
+
+ code
+echo "Je suis votre fichier texte" > une_commande.txt
+Compter le nombre de lignes présentes dans le fichier de source apt et les enregistrer dans un fichier nommé "nb_lignes.txt" :
+ 
+code
+wc -l /etc/apt/sources.list > nb_lignes.txt
+Afficher le contenu du fichier de source apt et l'enregistrer dans un autre fichier appelé "save_sources" :
+
+ code
+cat /etc/apt/sources.list > save_sources
+Faire une recherche des fichiers commençant par "." tout en cherchant le mot "alias" qui sera utilisé depuis un fichier :
+
+ code
+grep -r "alias" . --include=".*"
+Ces commandes peuvent être exécutées successivement dans un terminal pour réaliser les actions demandées. Après l'exécution, vous pouvez vérifier les résultats en affichant le contenu des fichiers créés :
+
+
+ code
+cat une_commande.txt
+cat nb_lignes.txt
+cat save_sources
+Cela vous montrera le contenu des fichiers et vous permettra de vérifier que les opérations ont été effectuées correctement.
+
+
+
+
+
+
+
+
+
+
+
+pierre@debian:~$ echo "je suis votre fichier texte" > une_commande.txt
+pierre@debian:~$ echo "plein le cul" > une_commande.txt
+pierre@debian:~$ wc -l < plein le cul > nb_lignes.txt
+bash: plein: Aucun fichier ou dossier de ce type
+
+source apt =ect/apt/sources.list
+
+pierre@debian:~$ wc -l /etc/apt/sources.list
+11/etc/apt/sources.list
